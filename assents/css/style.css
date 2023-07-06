@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    width: 90%;
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: blue;
+    background-image: url('https://w0.peakpx.com/wallpaper/542/774/HD-wallpaper-highway-night-blue-lake-road-sky.jpg');
+    background-size: cover;
+    padding: 20px;
+    color: #fff;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: block;
+}
+
+.profile-img {
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+}
+
+.contact-section {
+    margin-bottom: 20px;
+}
+
+.contact-section a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.brand-logo {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: block;
+    animation: spin 4s infinite linear;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.activities {
+    margin-bottom: 20px;
+}
+
+.gallery {
+    margin-bottom: 20px;
+}
+
+.tasks {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.task {
+    width: 120px;
+    height: 120px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 10px;
+}
+
+/* Tamaño de la imagen de la galería */
+.task img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .card {
+        width: 90%;
+    }
+}
+
+/* Estilos del footer */
+footer {
+    background-color: rgb(128, 128, 226) padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    color: #fff;
+    font-size: 14px;
+}
+
+footer img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
